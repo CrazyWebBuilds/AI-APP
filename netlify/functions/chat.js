@@ -3,7 +3,7 @@ const TRAIN_TEXT = "Your Train Text";
 const APP_NAME = "Your App Name";
 
 // Payment Config
-const UPI_ID = "yourname@upi"; 
+const UPI_ID = "balasubramaniam@icici"; 
 const UPI_PAYMENT_URL = `upi://pay?pa=${UPI_ID}&pn=AIWorkspace&am=99.00&cu=INR`;
 
 exports.handler = async function (event, context) {
